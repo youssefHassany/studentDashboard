@@ -1,0 +1,54 @@
+.todo h1 {
+    margin-bottom: 100px;
+}
+.todo form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.todo-add input[type="text"] {
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+}
+.todo-add input[type="text"]:focus {
+    outline: none;
+}
+.todo-add .btns {
+    width: 15%;
+    /* transform: translateY(3px); */
+}
+.todo ul {
+    display: block;
+    margin-top: 40px;
+    list-style: none;
+}
+.todo ul li {
+    background-color: var(--focus);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-left: solid 3px var(--purple);
+    position: relative;
+    z-index: 1;
+}
+.todo ul li::before {
+    content: "Delete";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 00%;
+    height: 100%;
+    background-color: var(--red);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0;
+    transition: all .2s;
+}
+.todo ul li:hover::before {
+    width: 100%;
+    opacity: 1;
+}

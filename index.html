@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" href="imgs/home.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+<body>
+    <div class="res-nav">
+        <div class="show-nav">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+        <div class="res-title"><h1>Dashboard</h1></div>
+        
+        <div class="show-todo">
+            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="container">
+
+        <!-- Nav -->
+        <nav>
+            <h1 style="font-weight: 700;" class="title">Dashboard</h1>
+
+            <div class="sub-list">
+                <h2>subjects</h2>
+                <ul>
+                    <li><p>Subject 1</p></li>
+                    <li><p>Subject 2</p></li>
+                    <li><p>Subject 3</p></li>
+                    <li><p>Subject 4</p></li>
+                    <li><p>Subject 5</p></li>
+                    <li><p>Subject 6</p></li>
+                </ul>
+            </div>
+
+            <div class="theme">
+                <h2>Theme:</h2>
+                <div class="main-col">
+                    <span class="dot active" style="background-color: #fffffe;"></span>
+                    <span class="dot active" style="background-color: #16161a;"></span>
+                    <!-- <h3>Custom:</h3> -->
+                    <!-- <form action=""><input type="color" class="custom-1"></form> -->
+                </div>
+                <div class="clear">Clear All Data</div>
+
+                
+            </div>
+            <div class="close-res">X</div>
+        </nav>
+
+        <!-- Board -->
+        <div class="board">
+            <div class="sub-container">
+                
+                <div class="sub">
+                    <h2>Subject 1</h2>
+                    <h1><span class="hrs">0</span>Hrs</h1>
+                    <div class="add-remove-sec">
+                        <p>Add/remove Hrs Studied:</p>
+                        <div class="add-remove">
+                            <form action="">
+                                <input type="number" name="" class="hrs-num">
+                            </form>
+                            <button class="plus">+</button>
+                            <button class="minus">-</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <h2>Subject 2</h2>
+                    <h1><span class="hrs">0</span>Hrs</h1>
+                    <div class="add-remove-sec">
+                        <p>Add/remove Hrs Studied:</p>
+                        <div class="add-remove">
+                            <form action="">
+                                <input type="number" name="" class="hrs-num">
+                            </form>
+                            <button class="plus">+</button>
+                            <button class="minus">-</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <h2>Subject 3</h2>
+                    <h1><span class="hrs">0</span>Hrs</h1>
+                    <div class="add-remove-sec">
+                        <p>Add/remove Hrs Studied:</p>
+                        <div class="add-remove">
+                            <form action="">
+                                <input type="number" name="" class="hrs-num">
+                            </form>
+                            <button class="plus">+</button>
+                            <button class="minus">-</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <h2>Subject 4</h2>
+                    <h1><span class="hrs">0</span>Hrs</h1>
+                    <div class="add-remove-sec">
+                        <p>Add/remove Hrs Studied:</p>
+                        <div class="add-remove">
+                            <form action="">
+                                <input type="number" name="" class="hrs-num">
+                            </form>
+                            <button class="plus">+</button>
+                            <button class="minus">-</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <h2>Subject 5</h2>
+                    <h1><span class="hrs">0</span>Hrs</h1>
+                    <div class="add-remove-sec">
+                        <p>Add/remove Hrs Studied:</p>
+                        <div class="add-remove">
+                            <form action="">
+                                <input type="number" name="" class="hrs-num">
+                            </form>
+                            <button class="plus">+</button>
+                            <button class="minus">-</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <h2>Subject 6</h2>
+                    <h1><span class="hrs">0</span>Hrs</h1>
+                    <div class="add-remove-sec">
+                        <p>Add/remove Hrs Studied:</p>
+                        <div class="add-remove">
+                            <form action="">
+                                <input type="number" name="" class="hrs-num">
+                            </form>
+                            <button class="plus">+</button>
+                            <button class="minus">-</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- chart -->
+            <div class="chart-container">
+                <div class="column-chart">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+                <div class="chart-data">
+                    <p><span class="dot"></span>Subject 1: <span class="percent">0</span></p>
+                    <p><span class="dot"></span>Subject 2: <span class="percent">0</span></p>
+                    <p><span class="dot"></span>Subject 3: <span class="percent">0</span></p>
+                    <p><span class="dot"></span>Subject 4: <span class="percent">0</span></p>
+                    <p><span class="dot"></span>Subject 5: <span class="percent">0</span></p>
+                    <p><span class="dot"></span>Subject 6: <span class="percent">0</span></p>
+                </div>
+            </div>
+
+            <section class="last-sec">
+                <div class="analysis">
+                    <h1>Change Subjects Names</h1>
+
+                    <div class="data-list">
+                        <ul>
+                            <li style="background-color: var(--green);">Subject 1<span></span></li>
+                            <li style="background-color: var(--orange);">Subject 2<span></span></li>
+                            <li style="background-color: var(--red);">Subject 3<span></span></li>
+                            <li style="background-color: var(--yellow);">Subject 4<span></span></li>
+                            <li style="background-color: var(--purple);">Subject 5<span></span></li>
+                            <li style="background-color: var(--pink);">Subject 6<span></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timer">
+                    <p>Timer</p>
+                    <h1>00:00</h1>
+                    <button class="timer-btn">Set Timer</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="todo">
+            <h1>To Do List:-</h1>
+
+            <div class="todo-add">
+                <form action="">
+                    <input type="text" placeholder="Add Task" class="todo-inp">
+                    <input type="button" value="+" class="btns plus todo-btn">
+                </form>
+            </div>
+
+            <ul>
+                
+            </ul>
+
+            <div class="close-res">X</div>
+        </div>
+    </div>
+
+    <div class="drop-menu">
+        <div class="input-container">
+            <div class="close">X</div>
+            <p>Note: You have to change the name everytime you open this tab</p>
+            <form action="">
+                <input type="text" placeholder="Subject Name" class="name-inp">
+                <!-- <input type="text" placeholder="Materials Link" class="link-inp"> -->
+                <input type="submit" value="Save Data" class="save-data">
+            </form>
+            <!-- <a href="" target="_blank" class="link-btn">Go To Materials</a> -->
+        </div>
+    </div>
+
+    <div class="timer-menu">
+        <div class="input-container">
+            <div class="close-time">X</div>
+            <form action="">
+                <div>
+                    <label for="mins">Minutes:</label>
+                    <input type="number" name="" id="mins">
+                </div>
+
+                <!-- <div>
+                    <label for="sec">Seconds:</label>
+                    <input type="number" name="" id="sec">
+                </div> -->
+
+                <button class="set-time">Set</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="time-finish-menu">
+        <p>Time is over, Good Job!</p>
+        <audio src="/audio/ES_Kitchen Timer 3 - SFX Producer.mp3"></audio>
+        <button class="conf">Confirm</button>
+    </div>
+    
+
+    <script src="js/main.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/dark_mode.js"></script>
+    <script src="js/visual.js"></script>
+</body>
+</html>
